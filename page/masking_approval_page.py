@@ -67,7 +67,7 @@ class MaskingApprovalPage:
             csv = df.to_csv(index=False)
             
             st.download_button(
-                label="Download CSV",
+                label="Download",
                 data=csv,
                 file_name=f"{object_name}_records.csv",
                 mime="text/csv"
