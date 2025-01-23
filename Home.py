@@ -238,7 +238,7 @@ class ProtectoApp:
              st.error(f"Error rendering page: {str(e)}")
 
     def run(self) -> None:
-        st.session_state.authenticated=True
+        #st.session_state.authenticated=True
         try:
             # Initialize authentication state if not present
             if 'authenticated' not in st.session_state:
